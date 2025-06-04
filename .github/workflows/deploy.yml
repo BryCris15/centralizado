@@ -3,7 +3,7 @@ name: Build and Push to DockerHub
 on:
   push:
     branches:
-      - main  # Solo cuando subas a main
+      - master  # Solo cuando subas a master
 
 jobs:
   build:
